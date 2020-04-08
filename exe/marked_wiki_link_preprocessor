@@ -1,0 +1,13 @@
+#!/usr/bin/ruby
+
+SCRIPT_PATH = File.dirname(File.realdirpath(__FILE__))
+LIB_ROOT = File.expand_path('../lib', SCRIPT_PATH)
+
+$LOAD_PATH.unshift LIB_ROOT
+
+Encoding::default_internal = Encoding::UTF_8
+Encoding::default_external = Encoding::UTF_8
+
+require 'marked'
+
+print Marked::WikiLinkPreprocessor.new(ENV['MARKED_PATH']).process(STDIN.read)
