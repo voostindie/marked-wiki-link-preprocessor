@@ -20,7 +20,11 @@ Make sure to read on to prevent surprises.
 
 ## How files get resolved
 
+> As it happens, the explanation in this section is 100% the same as what [Obsidian](https://obsidian.md) uses! Go check it out!
+
 Files that go together are expected to live in a *repository*. A repository is any directory with a `.datrc` file in it. All Markdown files in a repository are expected to have the `.md` extension.
+
+> Why `.datrc`? That's still a little secret...
 
 In a repository, file names are expected to be unique by their base name alone, independent on where they live within the repository. The text in the [[Wiki Link]] refers to this base name, without its `.md` extension.
 

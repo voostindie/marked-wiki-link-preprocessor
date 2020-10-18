@@ -65,7 +65,7 @@ module Marked
         if path.nil?
           if @editor.respond_to?(:new_callback_url)
             url = @editor.new_callback_url(name)
-            "[[**#{name}**]] ([*create*](#{url}))"
+            "*#{name}*[+](#{url})"
           else
             "**#{name}**(*?*)"
           end
