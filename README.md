@@ -1,5 +1,9 @@
 # Marked Wiki Link Preprocessor
 
+## Project archived
+
+**September 2021**: this project has been superseded by my [Obsidian Markdown filter](https://github.com/voostindie/obsidian-md-filter).
+
 ## What's this?
 
 This is a custom preprocessor for Marked 2 that does these things:
